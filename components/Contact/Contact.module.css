@@ -1,0 +1,10 @@
+.social_media_text_bg {
+  background: linear-gradient(
+    45deg,
+    rgb(254, 218, 119) 0%,
+    rgb(221, 42, 123) 10%,
+    rgb(0, 119, 181) 60%,
+    rgb(255, 255, 255) 100%
+  );
+  @apply text-center text-5xl m-4 font-bold text-transparent bg-clip-text;
+}
