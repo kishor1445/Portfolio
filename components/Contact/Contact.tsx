@@ -132,20 +132,20 @@ const Contact: React.FC = () => {
                     <div className='flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4'>
                         <LabelInputContainer>
                             <Label htmlFor="firstname">First name</Label>
-                            <Input id="firstname" onChange={(e)=>{setFirstname(e.target.value)}}  placeholder="Kishor" type="text" />
+                            <Input id="firstname" onChange={(e)=>{setFirstname(e.target.value)}} value={firstname} placeholder="Kishor" type="text" required/>
                         </LabelInputContainer>
                         <LabelInputContainer>
                             <Label htmlFor="lastname">Last name</Label>
-                            <Input id="lastname" onChange={(e)=>{setLastname(e.target.value)}}  placeholder="Ramanan" type="text" />
+                            <Input id="lastname" onChange={(e)=>{setLastname(e.target.value)}} value={lastname} placeholder="Ramanan" type="text" required/>
                         </LabelInputContainer>
                     </div>
                     <LabelInputContainer className="mb-4">
                         <Label htmlFor="email">Email Address</Label>
-                        <Input id="email" onChange={(e)=>{setEmail(e.target.value)}}  placeholder="kishorramanan5@gmail.com" type="email" />
+                        <Input id="email" onChange={(e)=>{setEmail(e.target.value)}} value={email} placeholder="kishorramanan5@gmail.com" type="email" required/>
                     </LabelInputContainer>
                     <LabelInputContainer className="mb-4">
                         <Label htmlFor="message">Message</Label>
-                        <Textarea id='message' onChange={(e)=>{setMessage(e.target.value)}}  placeholder='Hello there! ;)' />
+                        <Textarea id='message' onChange={(e)=>{setMessage(e.target.value)}} value={message}  placeholder='Hello there! ;)' required/>
                     </LabelInputContainer>
                   </div>
                   
