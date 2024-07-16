@@ -5,9 +5,9 @@ import { cn } from "@/lib/utils";
 import { useMotionTemplate, useMotionValue, motion } from "framer-motion";
 
 export interface TextareaProps
-  extends React.TextareaHTMLAttributes<HTMLInputElement> {}
+  extends React.TextareaHTMLAttributes<HTMLTextAreaElement> {}
 
-const Textarea = React.forwardRef<HTMLInputElement, TextareaProps>(
+const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(
   ({ className, ...props }, ref) => {
     const radius = 100; // change this to increase the radius of the hover effect
     const [visible, setVisible] = React.useState(false);
@@ -48,7 +48,7 @@ const Textarea = React.forwardRef<HTMLInputElement, TextareaProps>(
            `,
             className
           )}
-        //   ref={ref}
+          ref={ref}
           {...props}
         />
       </motion.div>
