@@ -15,7 +15,7 @@ const NotFoundPage: React.FC = () => {
         <p className="text-2xl font-bold tracking-tight sm:text-4xl text-white">
           Uh-oh!
         </p>
-        <p className="mt-4 text-gray-400">We can't find that page.</p>
+        <p className="mt-4 text-gray-400">We can&apos;t find that page.</p>
         <Link href={'/'} className='mt-6 inline-block rounded bg-sky-400 px-5 py-3 text-sm font-medium text-white hover:bg-sky-500 focus:outline-none focus:ring'>Go Back Home</Link>
         </div>
       </EvervaultCard>
