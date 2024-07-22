@@ -3,15 +3,25 @@ import Contact from "@/components/Contact/Contact";
 import Footer from "@/components/Footer/Footer";
 import Certificates from "@/components/Certificates/Certificates";
 import Projects from "@/components/Projects/Projects";
+import Info from "@/components/Info/Info";
 
 export default function Home() {
   return (
-    <main className="overflow-x-hidden">
+    <div className="overflow-x-hidden">
       <Hero />
-      <Projects />
-      <Certificates />
-      <Contact />
+      <main>
+        <Info />
+        <section>
+          <Projects />
+        </section>
+        <section>
+          <Certificates />
+        </section>
+        <section>
+          <Contact />
+        </section>
+      </main>
       <Footer />
-    </main>
+    </div>
   );
 }
