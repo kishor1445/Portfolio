@@ -5,12 +5,12 @@ import NavBar from "@/components/NavBar/NavBar";
 
 const Hero = () => {
   return (
-    <header>
+    <>
         <HeroHighlight>
           <NavBar />
           <Home />
         </HeroHighlight>
-    </header>
+    </>
   );
 }
 
