@@ -11,7 +11,7 @@ const Info: React.FC = () => {
                 <p className='pl-10'>C/C++, Python, Rust, Java, Kotlin, Swift, JavaScript/TypeScript, SQL..,</p>
                 <br />
                 <p className='text-black font-bold'>Frameworks/Libraries:</p>
-                <p className='pl-10'>FastAPI, Flask, Django, Discord.py, TensorFlow, PyTorch, Numpy, Pandas, OpenCV, Scikit Learn, Matplotlib, Kivy, ReactJS, NextJS, Tokio, Requests, BeautifulSoap, Selenium..,</p>
+                <p className='pl-10'>FastAPI, Flask, Django, Discord.py, TensorFlow, PyTorch, Numpy, Pandas, OpenCV, Scikit Learn, Matplotlib, Kivy, ReactJS, NextJS, Tokio, Requests, BeautifulSoup, Selenium..,</p>
                 <br />
                 <p className='text-black font-bold'>Technologies:</p>
                 <p className='pl-10'>Git, MongoDB, Linux, Redis, Nginx, Docker, Virtual Machines, SSH, Domain Management.., </p>
