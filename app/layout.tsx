@@ -1,39 +1,64 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Head from "next/head";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "K1SH0R",
-  description: "Passionate about AI & ML, eager to make a difference. Explore my portfolio showcasing early projects and potential for growth.",
+  title: "Kishor Ramanan | AI & ML Enthusiast",
+  description: "Explore the portfolio of Kishor Ramanan, showcasing early projects and potential for growth in AI and ML.",
   applicationName: "K1SH0R Portfolio",
-  authors: {name: "Kishor Ramanan", url: "https://kishorramanan.com"},
-  keywords: ["kishor ramanan's portfolio", "projects", "showcase", "personal website", "developer portfolio", "ai ml"],
+  authors: [{name: "Kishor Ramanan", url: "https://kishorramanan.com"}],
+  keywords: [
+    "Kishor Ramanan portfolio",
+    "AI projects", 
+    "ML projects",
+    "projects", 
+    "showcase", 
+    "portfolio", 
+    "developer",
+    "developer portfolio",
+    "AI ML developer",
+    "natural language processing",
+    "computer vision",
+    "data analysis",
+  ],
   creator: "Kishor Ramanan",
   robots: {
     index: true,
     follow: true
   },
-  generator: "redacted",
-  publisher: "redacted",
   openGraph: {
     type: "website",
-    url: "kishorramanan.com",
-    title: "K1SH0R's Portfolio",
-    description: "Passionate about AI & ML, eager to make a difference. Explore my portfolio showcasing early projects and potential for growth.",
+    locale: "en_IN",
+    url: "https://kishorramanan.com",
+    title: "Kishor Ramanan | AI & ML Enthusiast",
+    description: "Explore the portfolio of Kishor Ramanan, showcasing early projects and potential for growth in AI and ML.",
     siteName: "K1SH0R",
-    images: {
-      url: "https://kishorramanan.com/k1sh0r.jpg"
-    }
+    images: [
+      {
+        url: "https://kishorramanan.com/k1sh0r.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Kishor Ramanan's Portfolio"
+      }
+    ]
   },
   twitter: {
-    title: "K1SH0R's Portfolio",
-    description: "Passionate about AI & ML, eager to make a difference. Explore my portfolio showcasing early projects and potential for growth.",
+    title: "Kishor Ramanan | AI & ML Enthusiast",
+    description: "Explore the portfolio of Kishor Ramanan, showcasing early projects and potential for growth in AI and ML.",
     card: "summary_large_image",
-    site: "@site",
-    creator: "@creator",
-    images: "https://kishorramanan.com/k1sh0r.jpg"
+    site: "@Kishor1445",
+    creator: "@Kishor1445",
+    images: [
+      {
+        url: "https://kishorramanan.com/k1sh0r.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Kishor Ramanan's Portfolio"
+      }
+    ]
   },
   verification: {
     google: "BFy0BaRnN0vs70nzTUFq19M6VH3aQDpH25mbxzP752k",
@@ -45,8 +70,29 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Kishor Ramanan",
+    "url": "https://kishorramanan.com",
+    "image": "https://kishorramanan.com/k1sh0r.jpg",
+    "jobTitle": "AI & ML Enthusiast",
+    "sameAs": [
+      "https://www.linkedin.com/in/kishor1445",
+      "https://github.com/kishor1445",
+      "https://twitter.com/Kishor1445"
+    ]
+  };
   return (
     <html lang="en">
+      <head>
+        <meta charSet="UTF-8" />
+        <link rel="canonical" href="https://kishorramanan.com" />
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+          />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );

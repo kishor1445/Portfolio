@@ -1,17 +1,16 @@
-"use client";
 import Home from "@/components/Home/Home";
-import { HeroHighlight, Highlight } from "../ui/hero-highlight";
+import { HeroHighlight } from "@/components/ui/hero-highlight";
 import NavBar from "@/components/NavBar/NavBar";
 
 
 const Hero = () => {
   return (
-    <div>
+    <header>
         <HeroHighlight>
-            <NavBar />
-            <Home />
+          <NavBar />
+          <Home />
         </HeroHighlight>
-    </div>
+    </header>
   );
 }
 

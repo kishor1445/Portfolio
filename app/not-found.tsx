@@ -1,10 +1,6 @@
 import React from 'react'
 import Link from 'next/link';
-import { EvervaultCard, Icon } from "@/components/ui/evervault-card";
-
-const Comp: React.FC = () => {
-  return <></>
-}
+import { EvervaultCard } from "@/components/ui/evervault-card";
 
 const NotFoundPage: React.FC = () => {
   return (
