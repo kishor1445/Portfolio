@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Kishor Ramanan | AI & ML Enthusiast",
+  title: "Kishor Ramanan T | AI & ML Enthusiast | SIST",
   description: "Explore the portfolio of Kishor Ramanan, showcasing early projects and potential for growth in AI and ML.",
   applicationName: "K1SH0R Portfolio",
   authors: [{name: "Kishor Ramanan", url: "https://kishorramanan.com"}],
@@ -32,9 +32,9 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN",
     url: "https://kishorramanan.com",
-    title: "Kishor Ramanan | AI & ML Enthusiast",
+    title: "Kishor Ramanan T | AI & ML Enthusiast | SIST",
     description: "Explore the portfolio of Kishor Ramanan, showcasing early projects and potential for growth in AI and ML.",
-    siteName: "K1SH0R",
+    siteName: "Kishor Ramanan T | AI & ML Enthusiast | SIST",
     images: [
       {
         url: "https://kishorramanan.com/k1sh0r.jpg",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     ]
   },
   twitter: {
-    title: "Kishor Ramanan | AI & ML Enthusiast",
+    title: "Kishor Ramanan T | AI & ML Enthusiast | SIST",
     description: "Explore the portfolio of Kishor Ramanan, showcasing early projects and potential for growth in AI and ML.",
     card: "summary_large_image",
     site: "@Kishor1445",
