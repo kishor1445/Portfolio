@@ -2,16 +2,14 @@
 import React, { useState } from 'react'
 import Image from 'next/image';
 import { cn } from "@/lib/utils";
-import { ClipboardCopy, ExternalLink, SendHorizontal } from 'lucide-react';
-// import { Toaster } from "@/components/ui/sonner"
-// import { toast } from "sonner"
+import { ClipboardCopy, ExternalLink } from 'lucide-react';
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { motion } from 'framer-motion';
 import styles from '@/components/Contact/Contact.module.css'
-import { Textarea } from '../ui/textarea';
-import { PinContainer } from "../ui/3d-pin";
-import { BackgroundBeams } from "../ui/background-beams";
+import { Textarea } from '@/components/ui/textarea';
+import { PinContainer } from "@/components/ui/3d-pin";
+import { BackgroundBeams } from "@/components/ui/background-beams";
 
 
 const Contact: React.FC = () => {
@@ -174,13 +172,18 @@ const Contact: React.FC = () => {
               </div>
               <p className='text-xl text-center'>Location</p>
               <PinContainer
-                    title="Chennai, TN, IN"
+                    title="Chennai"
                 >
                     <div className="w-[20rem] h-[20rem] ">
                         {/* <img className="w-full h-full rounded-lg " src='/map.png' /> */}
                         <Image src="/map.png" width={350} height={350} alt='chennai' />
                     </div>
                 </PinContainer>
+                <address>
+                  Chennai,
+                  Tamil Nadu,
+                  India
+                </address>
               <div className="h-[1rem] w-full flex items-center justify-center ">
                 
             </div>
