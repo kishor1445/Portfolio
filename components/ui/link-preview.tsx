@@ -102,6 +102,7 @@ export const LinkPreview = ({
           className={cn("text-sky-400", className)}
           href={url}
           target="_blank"
+          rel="noopener"
         >
           {children}
         </HoverCardPrimitive.Trigger>
@@ -135,6 +136,7 @@ export const LinkPreview = ({
                 <Link
                   href={url}
                   target="_blank"
+                  rel="noopener"
                   className="block p-1 bg-sky-400 border-2 border-transparent shadow rounded-xl hover:border-neutral-800"
                   style={{ fontSize: 0 }}
                 >

@@ -25,3 +25,15 @@ body {
     text-wrap: balance;
   }
 }
+
+.email-trick::after{
+  content: "gmail.com"
+}
+
+.email-trick::before {
+  content: "kishorramanan5"
+}
+
+.phone-trick::after {
+  content: "2628286"
+}

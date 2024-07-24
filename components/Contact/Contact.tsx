@@ -164,11 +164,11 @@ const Contact: React.FC = () => {
               <motion.p initial={{opacity: 0, y: 50}} whileInView={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.5}} className='font-bold text-3xl text-sky-400'>Contact</motion.p>
               <div className='text-center'>
                 <p className='text-xl'>E-Mail</p>
-                <p className='text-gray-400'>kishorramanan5@gmail.com</p>
+                <p className='text-gray-400 email-trick'>@</p>
               </div>
               <div className='text-center'>
                 <p className='text-xl'>WhatsApp</p>
-                <p className='text-gray-400'>+91 6382628286</p>
+                <p className='text-gray-400 phone-trick'>+91 638</p>
               </div>
               <p className='text-xl text-center'>Location</p>
               <PinContainer
