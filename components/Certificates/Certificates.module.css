@@ -1,0 +1,7 @@
+.container {
+    @apply w-full p-10;
+}
+
+.title {
+    @apply text-center text-5xl text-sky-400 font-bold;
+}

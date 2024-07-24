@@ -14,7 +14,7 @@ const NavBar: React.FC = () => {
                 animate={{opacity: 1, x: 0}}
                 transition={{duration: 0.8, delay: 0}}
             >
-                <h1 className={styles.logo_text}>K1SH0R</h1>
+                <p className={styles.logo_text}>K1SH0R</p>
             </motion.div>
             <motion.div
                 initial={{opacity: 0, y: -100}}

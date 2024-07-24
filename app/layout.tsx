@@ -7,7 +7,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Kishor Ramanan T | AI & ML Enthusiast | SIST",
   description: "Explore the portfolio of Kishor Ramanan, showcasing early projects and potential for growth in AI and ML.",
-  applicationName: "K1SH0R Portfolio",
   authors: [{name: "Kishor Ramanan", url: "https://kishorramanan.com"}],
   keywords: [
     "Kishor Ramanan portfolio",
@@ -79,7 +78,8 @@ export default function RootLayout({
     "sameAs": [
       "https://www.linkedin.com/in/kishor1445",
       "https://github.com/kishor1445",
-      "https://twitter.com/Kishor1445"
+      "https://twitter.com/Kishor1445",
+      "https://www.youtube.com/channel/UC7D_DDumfbanMD9DkY7a9xA",
     ]
   };
   return (

@@ -1,16 +1,17 @@
 'use client';
 import { HoverEffect } from "../ui/card-hover-effect";
 import {motion} from 'framer-motion'
+import style from './Certificates.module.css'
 
 const Certificates = () => {
   return (
-    <div id='certificates' className='w-full p-10'>
+    <div id='certificates' className={style.container}>
         <motion.h2 
          initial={{opacity: 0, scale: 0}}
          whileInView={{ opacity: 1, scale: 1}}
          viewport={{ once: false, amount: 0.8 }}
          transition={{duration: 1}}
-         className='text-center text-5xl text-sky-400 font-bold'>
+         className={style.title}>
             Certificates
         </motion.h2>
         <HoverEffect items={certificates} />

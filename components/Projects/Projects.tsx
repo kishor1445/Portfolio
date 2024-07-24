@@ -19,7 +19,7 @@ const Projects = () => {
             <motion.div
               initial={{opacity: 0, x: -200}} whileInView={{opacity: 1, x: 0}} transition={{duration: 1, delay: 0}}
               className='w-full h-full block sm:flex sm:flex-col space-y-8 items-center justify-center'>
-                <h2 className='text-3xl font-black pt-8'>BlankBot: The AI-Powered Discord Moderator</h2>
+                <h3 className='text-3xl font-black pt-8'>BlankBot: The AI-Powered Discord Moderator</h3>
                 <div className='text-xl px-5 sm:px-10 space-y-4 text-slate-300'>
                 <p>BlankBot is a custom Discord bot that leverages cutting-edge AI models to streamline moderation and enhance community engagement. Built with Python and MongoDB, it offers:</p>
                 <div className='px-5 sm:px-10'>

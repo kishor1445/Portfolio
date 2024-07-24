@@ -65,7 +65,7 @@ const Contact: React.FC = () => {
           transition={{duration: 1}}
           className='flex items-center justify-center'
         >
-          <p className={styles.social_media_text_bg}>Social Media</p>
+          <h2 className={styles.social_media_text_bg}>Social Media</h2>
         </motion.div>
         <div className='m-4 grid grid-cols-2 gap-4 sm:grid-cols-3 whitespace-pre'>
           <div className='group sm:h-80 flex flex-row justify-center items-center'>
