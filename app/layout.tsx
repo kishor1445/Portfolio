@@ -79,7 +79,7 @@ export default function RootLayout({
       "https://www.linkedin.com/in/kishor1445",
       "https://github.com/kishor1445",
       "https://twitter.com/Kishor1445",
-      "https://www.youtube.com/channel/UC7D_DDumfbanMD9DkY7a9xA",
+      "https://www.youtube.com/channel/UCEj9CSetG31yAE2x4n2Dfxw",
     ]
   };
   return (
